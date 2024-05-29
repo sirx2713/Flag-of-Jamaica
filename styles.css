@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#yellow-box{
+    position: relative;
+    height: 600px;
+    width: 1200px;
+    background: #FED100;
+}
+#yellow-box > #black-triangles{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+#yellow-box > #black-triangles > #triangle1{
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 500px solid black;
+    border-top: 300px solid transparent;
+    border-bottom: 300px solid transparent;
+}
+#yellow-box > #black-triangles > #triangle2{
+    position: absolute;
+    left: 700px;
+    height: 0;
+    width: 0;
+    border-right: 500px solid black;
+    border-top: 300px solid transparent;
+    border-bottom: 300px solid transparent;
+}
+#yellow-box > #green-triangles{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+#yellow-box > #green-triangles > #triangle3{
+    position: absolute;
+    left: 100px;
+    height: 0;
+    width: 0;
+    border-top: 250px solid #009B3A;
+    border-left: 500px solid transparent;
+    border-right: 500px solid transparent;
+}
+#yellow-box > #green-triangles > #triangle4{
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    height: 0;
+    width: 0;
+    border-bottom: 250px solid #009B3A;
+    border-left: 500px solid transparent;
+    border-right: 500px solid transparent;
+}
